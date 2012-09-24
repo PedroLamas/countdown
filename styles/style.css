@@ -1,0 +1,85 @@
+body {
+	background: url(../images/bg-tile.png) repeat;
+	color: #FFF;
+	font-family: "Segoe UI SemiBold", "Segoe UI", Helvetica, Arial, Sans-Serif;
+	cursor: default;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+#mainContainer {
+	height: 400px;
+	width: 600px;
+	
+  left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	position: absolute;
+	margin: auto;
+}
+
+#countdownHeader, #countdownFooter {
+	left: 0px;
+	right: 0px;
+	position: absolute;
+	margin: auto;
+
+	font-family: Georgia, Helvetica, Arial, Sans-Serif;
+	font-size: 34px;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+#countdownHeader {
+	top: 30px;
+}
+
+#countdownFooter {
+	bottom: 30px;
+}
+
+
+#countdownHolder {
+  background: url(../images/time-placeholder.png) center center no-repeat;
+  width: 557px;
+  height: 383px;
+  margin: auto;
+}
+
+.cntSeparator {
+	display: none;
+}
+
+.cntDigit {
+  margin-top: 148px;
+}
+.cntDigit#cnt_2, .cntDigit#cnt_4, .cntDigit#cnt_6 {
+	margin-left: 7px;
+}
+
+.legend {
+	width: 134px;
+	margin: 10px 7px 0 0;
+	text-align: center;
+	float: left;
+	
+	color: #111;
+	color: rgba(0, 0, 0, .8);
+	text-shadow: 1px 1px 1px #555;
+	text-shadow: 1px 1px 1px rgba(120, 120, 120, .8);
+	font-size: 30px;
+}
+
+#footer {
+	text-align: center;
+	margin-top: 10px;
+	font-size: 10px;
+}
+#footer a {
+	text-shadow: 1px 1px 1px #555;
+	text-shadow: 1px 1px 2px #000;
+}
