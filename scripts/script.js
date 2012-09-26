@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-	var targetDate = new Date("October 29, 2012 9:00:00 UTC");
+	var targetDate = new Date("October 29, 2012 10:00:00 UTC");
 	var remaining = parseInt((targetDate - new Date()) / 1000);
 	
 	var remaining2 = remaining % 86400;
